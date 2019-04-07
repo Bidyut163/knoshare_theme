@@ -1,0 +1,24 @@
+.feature {
+  display: flex;
+
+  & > * {
+    flex: 1;
+  }
+
+  &__box {
+    margin: 2rem;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  &__icon {
+    height: 10rem;
+    width: 10rem;
+    margin-bottom: 1rem;
+    fill: $color-primary;
+  }
+
+  &__text {
+    font-size: 1.6rem;
+  }
+}

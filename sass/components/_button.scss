@@ -1,0 +1,21 @@
+.btn {
+  &,
+  &:link,
+  &:visited {
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.5rem 3.5rem;
+    font-size: 1.4rem;
+    border-radius: 3px;
+  }
+
+  &--white {
+    background-color: #fff;
+    color: #444;
+  }
+
+  &--animated {
+    animation: moveInButton 1s ease-out 0.8s;
+    animation-fill-mode: backwards;
+  }
+}
